@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "bootstrap-portfolio is redesign of my previous website \"Profesional-Portfolio. I recreated the previous site using bootstrap to accopmplish a more simplistic layout and a more user/mobile friendly design.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwuerz/bootstrap-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwuerz/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/nwuerz/bootstrap-portfolio#readme"
+}
