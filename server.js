@@ -49,4 +49,3 @@ const {from, subject, text} = req.body
 });
 
 app.listen(PORT);
-console.log("listening on localhost:" + PORT);
