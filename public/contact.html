@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contact | Nick Wuerz</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Play&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/browser-tab-icon.jpg">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/browser-tab-icon.jpg" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar sticky-top shadow-lg">
-
-        <h1 id="nickWuerz" class="navbar-brand">NICK WUERZ</h1>
-        <p id="apc">
-            <a href="/">About</a>
-            |
-            <a href="/portfolio">Portfolio</a>
-            |
-            <a href="/contact">Contact</a>
-        </p>
+      <h1 id="nickWuerz" class="navbar-brand">NICK WUERZ</h1>
+      <p id="apc">
+        <a href="/">About</a>
+        |
+        <a href="/portfolio">Portfolio</a>
+        |
+        <a href="/contact">Contact</a>
+      </p>
     </nav>
     <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron shadow-lg">
+            <h2>Hello! Let's work together.</h2>
+            <hr noshade />
 
-        <div class="row">
+            <form>
+              <div class="form-group">
+                <label class="form-txt" for="exampleInputEmail1">Name</label>
+                <input
+                  type="name"
+                  class="form-control form-input"
+                  id="name"
+                  aria-describedby="emailHelp"
+                />
+              </div>
 
-            <div class="col-sm-12">
+              <div class="form-group">
+                <label class="form-txt" for="exampleInputEmail1">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-input"
+                  id="email"
+                  aria-describedby="emailHelp"
+                />
+              </div>
 
-                <div class="jumbotron shadow-lg">
-                    <h2>Hello! Let's work together.</h2>
-                    <hr noshade>
+              <div class="form-group">
+                <label class="form-txt" for="exampleInputMessage1"
+                  >Message</label
+                >
+                <textarea
+                  type="text"
+                  class="form-control form-input"
+                  id="message"
+                  rows="3"
+                ></textarea>
+              </div>
 
-                    <form> 
+              <div class="form-group form-check"></div>
 
-                        <div class="form-group">
-                            <label class="form-txt" for="exampleInputEmail1">Name</label>
-                            <input type="name" class="form-control form-input" id="name" aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-txt" for="exampleInputEmail1">Email</label>
-                            <input type="email" class="form-control form-input" id="email"
-                                aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-txt" for="exampleInputMessage1">Message</label>
-                            <textarea type="text" class="form-control form-input" id="message" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group form-check">
-                        </div>
-
-                        <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
-
-                    </form>
-                </div>
-            </div>
+              <button id="submitBtn" type="submit" class="btn btn-primary">
+                Submit
+              </button>
+              <p id="form-alert">Thank, I'll be in touch!</p>
+            </form>
+          </div>
         </div>
-
+      </div>
     </div>
 
     <footer class="page-footer font-small fixed-bottom shadow-lg">
-        <div class="footer text-center py-2">
-            <small id="footer-txt"><b class="contact-font">P</b>:214-282-0977 | <b class="contact-font">E</b>:nawuerz@gmail.com</small>
-        </div>
+      <div class="footer text-center py-2">
+        <small id="footer-txt"
+          ><b class="contact-font">P</b>:214-282-0977 |
+          <b class="contact-font">E</b>:nawuerz@gmail.com</small
+        >
+      </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="contact.js"></script>
-</body>
-
+  </body>
 </html>
