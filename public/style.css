@@ -1,191 +1,196 @@
-html, body {
-    background: #2b5876; 
-    background: -webkit-linear-gradient(to left, #2b5876 , #4e4376); 
-    background: linear-gradient(to left, #2b5876 ,#4e4376); 
+html,
+body {
+  background: #2b5876;
+  background: -webkit-linear-gradient(to left, #2b5876, #4e4376);
+  background: linear-gradient(to left, #2b5876, #4e4376);
 }
 
 .navbar {
-    margin-bottom: 5%;
-    padding: 0;
-    border-bottom: solid 1px #403F4C;
-    background-color: #1B2432;
+  margin-bottom: 5%;
+  padding: 0;
+  border-bottom: solid 1px #403f4c;
+  background-color: #1b2432;
 }
 
-#nickWuerz{
-    letter-spacing: 4px;
-    background-color: #1B2432;
-    color: #B76D68;
-    margin-bottom: 0;
-    margin-right: 15%;
-    margin-left: 5%;
-    padding: 5px;
-    font-family: 'Lato', sans-serif;
+#nickWuerz {
+  letter-spacing: 4px;
+  background-color: #1b2432;
+  color: #b76d68;
+  margin-bottom: 0;
+  margin-right: 15%;
+  margin-left: 5%;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
-    color:#fff;
-    letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 #me {
-    margin-right: 10px;
-    border: #777;
-    border-style: solid;
-    border-width: 1px;
-    width: 8rem;
-    height: 11rem;
+  margin-right: 10px;
+  border: #777;
+  border-style: solid;
+  border-width: 1px;
+  width: 8rem;
+  height: 11rem;
 }
 
 .jumbotron {
-    background-color: #1B2432;
-    border: solid 1px #403F4C;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-bottom: 10%;
+  background-color: #1b2432;
+  border: solid 1px #403f4c;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 10%;
 }
 
 hr {
-    background-color: #B76D68;
+  background-color: #b76d68;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    color:#fff;
-    letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 a {
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 0;
-    color:#fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-decoration: none;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
-a:hover{
-    color: #B76D68;
-    text-decoration: none;
-    font-weight: bolder;
+a:hover {
+  color: #b76d68;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 #apc {
-    margin-bottom: 0;
-    margin-right: 5%;
-    color: #B76D68;
+  margin-bottom: 0;
+  margin-right: 5%;
+  color: #b76d68;
 }
 
 .text-secondary {
-    color: #fff;
+  color: #fff;
 }
 
 .thumbnail {
-    position: relative;
+  position: relative;
 }
 
 .caption {
-    position: absolute;
-    bottom: 15%;
-    width: 100%;
-    background: #2b5876; 
-    background: -webkit-linear-gradient(to left, #2b5876 , #4e4376); 
-    background: linear-gradient(to left, #2b5876 ,#4e4376);
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  background: #2b5876;
+  background: -webkit-linear-gradient(to left, #2b5876, #4e4376);
+  background: linear-gradient(to left, #2b5876, #4e4376);
 }
 
 .caption:hover {
-    position: absolute;
-    bottom: 15%;
-    width: 100%;
-    background:#B76D68;
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  background: #b76d68;
 }
 
-#txt-clr{
-    color: #fff;
+#txt-clr {
+  color: #fff;
 }
 
 .portfolio-img {
-    width: 20rem;
-    height: 10rem;
+  width: 20rem;
+  height: 10rem;
 }
 
 .form-group {
-    color: #777;
-    font-family: 'Lato', sans-serif;
+  color: #777;
+  font-family: "Lato", sans-serif;
 }
 
-.btn,.btn-primary {
-    background: #2b5876; 
-    background: -webkit-linear-gradient(to left, #2b5876 , #4e4376); 
-    background: linear-gradient(to left, #2b5876 ,#4e4376);
-    color:#fff;
-    border-style: none;
-    letter-spacing: 1px;
+.btn,
+.btn-primary {
+  background: #2b5876;
+  background: -webkit-linear-gradient(to left, #2b5876, #4e4376);
+  background: linear-gradient(to left, #2b5876, #4e4376);
+  color: #fff;
+  border-style: none;
+  letter-spacing: 1px;
 }
 
-.btn-primary:hover, .btn:hover, .btn-primary:active, btn:active {
-    background:#B76D68;
-    color: #fff;
-    border-style: none;
-    letter-spacing: 1px;
+.btn-primary:hover,
+.btn:hover,
+.btn-primary:active,
+btn:active {
+  background: #b76d68;
+  color: #fff;
+  border-style: none;
+  letter-spacing: 1px;
 }
 
-#game-img {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+#project-div {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 html {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
 }
 
 .container {
-    min-height: 100%;
-    display: grid;
+  min-height: 100%;
+  display: grid;
 }
 
 .links {
-    color: #B76D68;
-    /* font-weight: bolder; */
-    font-size: 19px;
+  color: #b76d68;
+  /* font-weight: bolder; */
+  font-size: 19px;
 }
 
 .links:hover {
-    color: rgb(224, 137, 131);
-    font-weight: bolder;
-    font-size: 19px;
+  color: rgb(224, 137, 131);
+  font-weight: bolder;
+  font-size: 19px;
 }
 
 .form-txt {
-    color: #fff;
-    letter-spacing: 1px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-.form-input{
-    background: #fff;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 1px;
+.form-input {
+  background: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1px;
 }
 
 #footer-txt {
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-    font-size: 12px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
 }
 
 .footer {
-    background-color: #1B2432;
-    color:#fff;
-    border-top: 1px solid #403F4C; 
+  background-color: #1b2432;
+  color: #fff;
+  border-top: 1px solid #403f4c;
 }
 
 .contact-font {
-    color: #B76D68;
+  color: #b76d68;
 }
