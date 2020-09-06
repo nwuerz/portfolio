@@ -194,3 +194,29 @@ html {
 .contact-font {
   color: #b76d68;
 }
+#tech-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+.tech-div {
+  margin-top: 15px;
+  margin-bottom: 30%;
+}
+
+#code-btn {
+  margin-top: 20%;
+}
+
+#icon-div {
+  background: transparent;
+  border: transparent;
+  margin-top: -5%;
+}
+
+#icons {
+  color: white;
+  font-size: 65px;
+  margin: 5%;
+}
