@@ -30,8 +30,10 @@ h2 {
 }
 
 #me {
+  border-radius: 10%;
+  margin-top: 5px;
   margin-right: 10px;
-  border: #777;
+  border: #1b2432;
   border-style: solid;
   border-width: 1px;
   width: 8rem;
@@ -64,7 +66,6 @@ a {
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
-  text-decoration: none;
 }
 
 a:hover {
@@ -87,29 +88,70 @@ a:hover {
   position: relative;
 }
 
-.caption {
+#rainbow-caption {
   position: absolute;
-  bottom: 15%;
   width: 100%;
-  background: #2b5876;
-  background: -webkit-linear-gradient(to left, #2b5876, #4e4376);
-  background: linear-gradient(to left, #2b5876, #4e4376);
+  background: transparent;
+  top: 30%;
 }
 
-.caption:hover {
-  position: absolute;
-  bottom: 15%;
-  width: 100%;
-  background: #b76d68;
+#rainbow {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 2px 2px #ff0000;
 }
 
-#txt-clr {
-  color: #fff;
+#charity-tracker-caption {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  top: 2%;
+}
+
+#charity-tracker {
+  font-family: "Playfair Display", serif;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#instachef-caption {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  top: 35%;
+}
+
+#instachef {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  color: #6b8e23;
+  font-weight: bolder;
+  -webkit-text-fill-color: #6b8e23;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: grey;
+  text-shadow: 1px 1px black;
 }
 
 .portfolio-img {
+  display: block;
+  margin: auto;
   width: 20rem;
   height: 10rem;
+  border-radius: 5%;
+}
+
+.portfolio-img:hover,
+.rainbow:hover,
+.charity:hover,
+.instachef:hover {
+  cursor: pointer;
 }
 
 .form-group {
@@ -223,22 +265,20 @@ html {
   margin: 5%;
 }
 
-#test {
-  background: transparent;
+#icons:hover {
+  color: #b76d68;
 }
 
 #index-icons {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-right: 10%;
-  margin-bottom: 10%;
+  height: 80px;
+  width: 80px;
+  margin: 5%;
 }
 
 #index-icon-end {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-right: 0px;
-  margin-bottom: 10%;
+  height: 80px;
+  width: 80px;
+  margin: 5%;
 }
