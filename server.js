@@ -1,15 +1,14 @@
 require("dotenv").config();
 const express = require("express");
+const enforce = require('express-sslify');
 const path = require("path");
 const morgan = require('morgan');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
 
-if (app.get("env") === "production") {
-    const enforce = require('express-sslify');
-    app.use(enforce.HTTPS({ trustProtoHeader: true }));
-}
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
+
+const PORT = process.env.PORT || 8080;
 
 
 app.use(express.urlencoded({ extended: true }));
