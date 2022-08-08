@@ -14,23 +14,23 @@ app.use(express.static("public"));
 app.use(morgan('dev'));
 
 //home page
-app.get("/", function(req, res) {
+app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "/index.html"));
-  });
+});
 //portfolio page
-app.get("/portfolio", function(req, res) {
-    res.sendFile(path.join(__dirname, "/public/portfolio.html"));
-  });
+// app.get("/portfolio", function (req, res) {
+//     res.sendFile(path.join(__dirname, "/public/portfolio.html"));
+// });
 //contact page
-app.get("/contact", function(req, res) {
-    res.sendFile(path.join(__dirname, "/public/contact.html"));
-  });
+// app.get("/contact", function(req, res) {
+//     res.sendFile(path.join(__dirname, "/public/contact.html"));
+//   });
 //send message
 app.post("/mail", (req, res) => {
     var apiKey = process.env.mg_key;
     var domain = 'sandbox48e185d300ab4e5ca39b0bfe8bfbbb44.mailgun.org';
     var mailgun = require('mailgun-js')({ apiKey, domain });
-const {from, subject, text} = req.body
+    const { from, subject, text } = req.body
     var data = {
         from,
         to: 'nawuerz@gmail.com',
@@ -40,7 +40,7 @@ const {from, subject, text} = req.body
 
     mailgun.messages().send(data, function (error, body) {
         console.log(error, body)
-        if (error){
+        if (error) {
             throw error;
         }
         console.log('I happened')
@@ -48,6 +48,6 @@ const {from, subject, text} = req.body
     });
 });
 
-app.listen(PORT, ()=> {
+app.listen(PORT, () => {
     console.log(`listening on Port ${PORT}`);
 });
