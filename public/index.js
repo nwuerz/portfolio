@@ -11,6 +11,7 @@ $(document).ready(function () {
   messageLink.on("click", () => {
     shouldShowForm = !shouldShowForm;
     shouldShowForm ? formDiv.show() : formDiv.hide();
+    window.scrollTo(0, document.body.scrollHeight);
   })
 
   submitButton.on("click", (event) => {
