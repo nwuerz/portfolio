@@ -17,15 +17,7 @@ app.use(morgan('dev'));
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "/index.html"));
 });
-//portfolio page
-// app.get("/portfolio", function (req, res) {
-//     res.sendFile(path.join(__dirname, "/public/portfolio.html"));
-// });
-//contact page
-// app.get("/contact", function(req, res) {
-//     res.sendFile(path.join(__dirname, "/public/contact.html"));
-//   });
-//send message
+
 app.post("/mail", (req, res) => {
     var apiKey = process.env.mg_key;
     var domain = 'sandbox48e185d300ab4e5ca39b0bfe8bfbbb44.mailgun.org';

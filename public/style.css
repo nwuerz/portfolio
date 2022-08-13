@@ -30,23 +30,11 @@ h2 {
   font-size: medium
 }
 
-#me {
-  border-radius: 10%;
-  margin-top: 5px;
-  margin-right: 10px;
-  border: #1b2432;
-  border-style: solid;
-  border-width: 1px;
-  width: 8rem;
-  height: 11rem;
-}
-
 .jumbotron {
   background-color: #1b2432;
   border: solid 1px #403f4c;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-bottom: 10%;
 }
 
 hr {
@@ -61,7 +49,18 @@ p {
   letter-spacing: 1px;
 }
 
-a {
+span {
+  color: #b76d68;
+  font-weight: bolder;
+}
+
+span:hover {
+  color: #ebbfbc;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* a {
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
   color: #fff;
@@ -73,87 +72,7 @@ a:hover {
   color: #b76d68;
   text-decoration: none;
   font-weight: bolder;
-}
-
-#apc {
-  margin-bottom: 0;
-  margin-right: 5%;
-  color: #b76d68;
-}
-
-.text-secondary {
-  color: #fff;
-}
-
-.thumbnail {
-  position: relative;
-}
-
-#rainbow-caption {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  top: 30%;
-}
-
-#rainbow {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: bolder;
-  -webkit-text-fill-color: yellow;
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: white;
-  text-shadow: 2px 2px #ff0000;
-}
-
-#charity-tracker-caption {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  top: 2%;
-}
-
-#charity-tracker {
-  font-family: "Playfair Display", serif;
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: white;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-#instachef-caption {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  top: 35%;
-}
-
-#instachef {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
-  color: #6b8e23;
-  font-weight: bolder;
-  -webkit-text-fill-color: #6b8e23;
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: grey;
-  text-shadow: 1px 1px black;
-}
-
-.portfolio-img {
-  display: block;
-  margin: auto;
-  width: 20rem;
-  height: 10rem;
-  border-radius: 5%;
-}
-
-.portfolio-img:hover,
-.rainbow:hover,
-.charity:hover,
-.instachef:hover {
-  cursor: pointer;
-}
+} */
 
 .form-group {
   color: #777;
@@ -180,34 +99,9 @@ btn:active {
   letter-spacing: 1px;
 }
 
-#project-txt {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  text-align: center;
-}
-
-html {
-  min-height: 100%;
-  position: relative;
-}
-
 .container {
   min-height: 100%;
   display: grid;
-}
-
-.links {
-  color: #b76d68;
-  /* font-weight: bolder; */
-  font-size: 19px;
-}
-
-.links:hover {
-  color: rgb(224, 137, 131);
-  font-weight: bolder;
-  font-size: 19px;
 }
 
 .form-txt {
@@ -239,22 +133,6 @@ html {
   color: #b76d68;
 }
 
-#tech-img {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  margin-right: 5px;
-}
-
-.tech-div {
-  margin-top: 15px;
-  margin-bottom: 30%;
-}
-
-#code-btn {
-  margin-top: 20%;
-}
-
 #icon-div {
   background: transparent;
   border: transparent;
@@ -283,8 +161,4 @@ html {
   height: 80px;
   width: 80px;
   margin: 5%;
-}
-
-.img:hover {
-  border: solid 1px white;
 }
